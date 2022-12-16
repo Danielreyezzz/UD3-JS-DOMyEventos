@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- nodeType muestra el mediante números el tipo de nodo del elemento seleccionado
+    En este caso nos devuelve 1, es decir, Element, porque está cogiendo la propia etiqueta script.
+    Esto se debe a que el cuando el script se ejecuta, la página no ha sido cargada del todo todavia,
+    por lo tanto el ultimo hijo es el propio script.-->
+    <script>
+      alert(document.body.lastChild.nodeType);
+    </script>
+  </body>
+</html>

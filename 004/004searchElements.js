@@ -17,6 +17,8 @@ let primerInput = search.querySelector("input");
 //el ultimo input del formulario
 let lastInput = search.querySelector("form > input");
 
+
+
 lastInput.style.backgroundColor = "red";
 
 
