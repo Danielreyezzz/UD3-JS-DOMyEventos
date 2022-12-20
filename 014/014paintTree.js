@@ -35,3 +35,6 @@ let createTree = (container, data) => {
 let container = document.getElementById("container");
 
 createTree(container, data);
+
+
+//TODO la segunda parte y comentarios

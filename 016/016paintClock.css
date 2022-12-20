@@ -1,0 +1,15 @@
+#h,#m,#s {
+    font-size: 4em;
+}
+#h{
+    color: red;
+}
+#m{
+    color: green;
+}
+#s{
+    color: blue;
+}
+button{
+    padding: 2em 5em;
+}
