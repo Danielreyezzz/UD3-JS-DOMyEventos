@@ -1,14 +1,8 @@
 "use strict";
-let divs = document.getElementsByTagName("div");
+//Guardamos todos los selectores 'div'
+let divs = document.querySelectorAll("div");
 
-let divsArray = Array.from(divs);
-let cruz = document.createElement("h1");
-
-
-cruz.textContent = "X";
-
-
+//Les sinsertamos 'afterbegin' un elemento html button
 for (let i = 0; i < divs.length; i++) {
-    divs[i] = cruz;
-
+    divs[i].insertAdjacentHTML("afterbegin", "<button>X</button>")
 }
